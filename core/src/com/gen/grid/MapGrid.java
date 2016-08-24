@@ -114,6 +114,7 @@ public class MapGrid {
 			
 			width = MathUtils.random(minWidth, maxWidth);
 			bottomXLeft = vertex[i].x - width < 0 ? 0 : vertex[i].x - width;
+			
 			hillLeft.add(new Node(bottomXLeft, MathUtils.random(vertex[i].y / 6, vertex[i].y - 1)));
 			
 		}
